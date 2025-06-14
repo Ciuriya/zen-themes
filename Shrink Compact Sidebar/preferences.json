@@ -1,0 +1,8 @@
+[
+  {
+    "property": "mod.shrinkcompactsidebar.align-sidebar-top-buttons-vertically",
+    "label": "Align Sidebar Top Buttons Vertically",
+    "type": "checkbox",
+    "defaultValue": true
+  },
+]
