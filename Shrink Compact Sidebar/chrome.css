@@ -17,24 +17,21 @@
 	  max-width: var(--zen-toolbox-max-width) !important;
 	  min-width: var(--zen-toolbox-max-width) !important;
 
-	  /*@media (-moz-bool-pref: "mod.shrinkcompactsidebar.align-sidebar-top-buttons-vertically") {*/
-		& #zen-sidebar-top-buttons, 
-		  #zen-sidebar-top-buttons-customization-target {
-			padding: 0px !important;
-			margin-top: -3px !important;
-			scale: 1;
-		}
-	  /*}*/
+	  & #zen-sidebar-top-buttons, 
+	    #zen-sidebar-top-buttons-customization-target {
+		  padding: 0px !important;
+		  margin-top: -3px !important;
+		  scale: 1;
+	  }
 	}
 
-	@media (-moz-bool-pref: "zen.view.compact.hide-toolbar") {/* and (-moz-bool-pref: "mod.shrinkcompactsidebar.align-sidebar-top-buttons-vertically") { */
+	@media (-moz-bool-pref: "zen.view.compact.hide-toolbar") {
 	  &:not([zen-single-toolbar='true']) {
 	    & #titlebar {
 	      margin-top: 0px !important;
 	    }
 	  }
 	}
-
 
 	tab-group[split-view-group] {
 	  padding: 0 !important;
