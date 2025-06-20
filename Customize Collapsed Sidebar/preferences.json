@@ -1,0 +1,80 @@
+[
+  {
+    "property": "mod.ccs.sidebar_total_width",
+    "label": "Total Sidebar Width",
+    "type": "string",
+    "disabledOn":[],
+    "defaultValue": "48px",
+    "placeholder": "48px (use px)"
+  },
+  {
+    "property": "mod.ccs.tab_width",
+    "label": "Tab Width",
+    "type": "string",
+    "disabledOn":[],
+    "defaultValue": "36px",
+    "placeholder": "36px (use px)"
+  },
+  {
+    "property": "mod.ccs.tab_height",
+    "label": "Tab Height",
+    "type": "string",
+    "disabledOn":[],
+    "defaultValue": "36px",
+    "placeholder": "36px (use px)"
+  },
+  {
+    "property": "mod.ccs.tab_icon_size",
+    "label": "Tab Icon Size",
+    "type": "string",
+    "disabledOn":[],
+    "defaultValue": "16px",
+    "placeholder": "16px (use px)"
+  },
+  {
+    "property": "mod.ccs.tab_outline_size",
+    "label": "Tab Outline Size",
+    "type": "string",
+    "disabledOn":[],
+    "defaultValue": "1px",
+    "placeholder": "1px (use px)"
+  },
+  {
+    "property": "mod.ccs.tab_outline_offset",
+    "label": "Tab Outline Offset",
+    "type": "string",
+    "disabledOn":[],
+    "defaultValue": "-1px",
+    "placeholder": "-1px (use px)"
+  },
+  {
+    "property": "mod.ccs.compact_sidebar_top-margin",
+    "label": "Compact Collapsed Sidebar Top Margin (supports %, keep 38px for top bar)",
+    "type": "string",
+    "disabledOn":[],
+    "defaultValue": "38px",
+    "placeholder": "38px (use px or %)"
+  },
+  {
+    "property": "mod.ccs.compact_sidebar_bottom_margin",
+    "label": "Compact Collapsed Sidebar Bottom Margin (supports %)",
+    "type": "string",
+    "disabledOn":[],
+    "defaultValue": "0px",
+    "placeholder": "0px (use px or %)"
+  },
+  {
+    "property": "mod.ccs.align_sidebar_top_buttons-vertically",
+    "label": "Align Sidebar Top Buttons Vertically",
+    "type": "checkbox",
+    "disabledOn":[],
+    "defaultValue": true
+  },
+  {
+    "property": "mod.ccs.remove_sidebar_top_margin",
+    "label": "Remove Sidebar Top Margin",
+    "type": "checkbox",
+    "disabledOn":[],
+    "defaultValue": true
+  }
+]

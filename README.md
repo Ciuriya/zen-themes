@@ -3,5 +3,5 @@
 A collection of every zen theme/mod I've made!
 
 Here's a quick summary:
-- Shrink Compact Sidebar: Shrinks the compact mode collapsed sidebar back to its pre-1.13b sizing.
-  ![Screenshot](Shrink%20Compact%20Sidebar/Smaller%20Sidebar.png)
+- Customize Collapsed Sidebar: Make the collapsed sidebar look exactly how you want it to!
+  ![Screenshot](Customize%20Collapsed%20Sidebar/Compact%20Collapsed%20Sidebar.png)
