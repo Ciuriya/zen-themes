@@ -64,7 +64,7 @@
     "placeholder": "0px (use px or %)"
   },
   {
-    "property": "mod.ccs.align_sidebar_top_buttons-vertically",
+    "property": "mod.ccs.align_sidebar_top_buttons_vertically",
     "label": "Align Sidebar Top Buttons Vertically",
     "type": "checkbox",
     "disabledOn": [],
