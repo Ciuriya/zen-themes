@@ -5,6 +5,6 @@
   "homepage": "https://github.com/Ciuriya/zen-themes/tree/main/Customize%20Collapsed%20Sidebar",
   "style": "https://raw.githubusercontent.com/Ciuriya/zen-themes/main/Customize%20Collapsed%20Sidebar/chrome.css",
   "readme": "https://raw.githubusercontent.com/Ciuriya/zen-themes/main/Customize%20Collapsed%20Sidebar/readme.md",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "fork": ["zen"]
 }
