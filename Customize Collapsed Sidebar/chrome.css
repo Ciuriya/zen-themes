@@ -186,12 +186,18 @@
 	    width: var(--custom-sidebar-tab-width) !important;
 	    outline-width: var(--custom-sidebar-tab-outline-size) !important;
 	    outline-offset: var(--custom-sidebar-tab-outline-offset) !important;
+	}
+
+	zen-folder {
+		:root:not([zen-sidebar-expanded='true']) & {
+			--tab-min-width: var(--custom-sidebar-tab-width) !important;
+		}
+	}
 
 	:root:not([zen-sidebar-expanded='true']) & {
 	    padding: 0 !important;
-	    --tab-min-height: var(--custom-sidebar-tab-height)!important;
+	    --tab-min-height: var(--custom-sidebar-tab-height) !important;
 	    --tab-collapsed-width: calc(var(--custom-sidebar-tab-width) + 2 * var(--tab-inner-inline-margin)) !important;
-	    --tab-min-width: var(--custom-sidebar-tab-width) !important;
-        }
+    	--tab-min-width: var(--custom-sidebar-tab-width) !important;
     }
 }
