@@ -53,7 +53,7 @@
 			&:not([zen-compact-animating]) {
 				& #navigator-toolbox {
 					--zen-toolbox-max-width: var(--custom-sidebar-total-width) !important;
-					--zen-toolbar-height: var(--custom-sidebar-compact-top-margin) !important;
+					--zen-toolbar-height: calc(100% - var(--custom-sidebar-compact-height)) !important;
                     
 					&:not([animate="true"]) {
 						:root:not([zen-single-toolbar="true"]) & {
@@ -81,7 +81,8 @@
 		        @media (-moz-bool-pref: "zen.view.compact.hide-toolbar") {
 			        &:not([zen-single-toolbar="true"]) {
 			        	& #navigator-toolbox:not([animate="true"]) {
-			        		margin-top: var(--zen-toolbar-height) !important;
+			        		margin-top: var(--custom-sidebar-compact-top-margin) !important;
+			        		margin-bottom: var(--custom-sidebar-compact-bottom-margin) !important;
 			        	}
 			        }
 			    }
