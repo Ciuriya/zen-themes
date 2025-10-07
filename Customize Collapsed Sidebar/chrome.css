@@ -45,6 +45,7 @@
 			var(--custom-sidebar-compact-top-margin) + 
 			var(--custom-sidebar-compact-bottom-margin));
 		--tab-min-height: var(--custom-sidebar-tab-height) !important;
+		--custom-sidebar-folder-icon-size: calc(var(--custom-sidebar-icon-size) + 8px);
 	}
 
 	:root[zen-compact-mode="true"]:not([customizing]):not([inDOMFullscreen="true"]) {
@@ -75,7 +76,23 @@
 		                    	right: 7px !important;
 		                    }
 		                }
+
+		                .tab-group-folder-icon {
+			        		visibility: visible !important;
+							opacity: 1 !important;
+							transition: opacity 180ms ease 0ms, visibility 0s linear 0ms !important;
+		        		}
 		            }
+		        }
+
+		        &:not([zen-renaming-tab="true"]) #navigator-toolbox:not(:is([zen-has-hover]:not(:has(#urlbar[zen-floating-urlbar="true"]:hover)), [zen-user-show], [zen-has-empty-tab], [flash-popup], [has-popup-menu], [movingtab], :has(.tabbrowser-tab:active), :has(:is([panelopen="true"], [open="true"], #urlbar:focus-within, [breakout-extend="true"]):not(#urlbar[zen-floating-urlbar="true"]):not(tab):not(.zen-compact-mode-ignore)))) {
+		        	&:not([animate="true"]) {
+		        		.tab-group-folder-icon {
+							opacity: 0 !important;
+							transition: opacity 180ms ease 0ms, visibility 0s linear 180ms !important;
+							visibility: hidden !important;
+		        		}
+		        	}
 		        }
 
 		        @media (-moz-bool-pref: "zen.view.compact.hide-toolbar") {
@@ -192,6 +209,24 @@
 	zen-folder {
 		:root:not([zen-sidebar-expanded='true']) & {
 			--tab-min-width: var(--custom-sidebar-tab-width) !important;
+		}
+
+		& > .tab-group-label-container {
+			padding-inline: 0px !important;
+
+			.tab-group-folder-icon {
+	            width: var(--custom-sidebar-tab-width) !important;
+				height: var(--custom-sidebar-tab-height) !important;
+				min-width: var(--custom-sidebar-tab-width) !important;
+				min-height: var(--custom-sidebar-tab-height) !important;
+				left: calc((var(--custom-sidebar-tab-width) - var(--custom-sidebar-folder-icon-size)) / 2) !important;
+				right: calc((var(--custom-sidebar-tab-width) - var(--custom-sidebar-folder-icon-size)) / 2) !important;
+
+				& svg {
+					width: var(--custom-sidebar-folder-icon-size) !important;
+					height: var(--custom-sidebar-folder-icon-size) !important;
+				}
+			}
 		}
 	}
 
