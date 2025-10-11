@@ -77,7 +77,7 @@
 		                    }
 		                }
 
-		                .tab-group-folder-icon {
+		                .tab-group-folder-icon, zen-folder .tab-group-container {
 			        		visibility: visible !important;
 							opacity: 1 !important;
 							transition: opacity 180ms ease 0ms, visibility 0s linear 0ms !important;
@@ -87,7 +87,7 @@
 
 		        &:not([zen-renaming-tab="true"]) #navigator-toolbox:not(:is([zen-has-hover]:not(:has(#urlbar[zen-floating-urlbar="true"]:hover)), [zen-user-show], [zen-has-empty-tab], [flash-popup], [has-popup-menu], [movingtab], :has(.tabbrowser-tab:active), :has(:is([panelopen="true"], [open="true"], #urlbar:focus-within, [breakout-extend="true"]):not(#urlbar[zen-floating-urlbar="true"]):not(tab):not(.zen-compact-mode-ignore)))) {
 		        	&:not([animate="true"]) {
-		        		.tab-group-folder-icon {
+		        		.tab-group-folder-icon, zen-folder .tab-group-container {
 							opacity: 0 !important;
 							transition: opacity 180ms ease 0ms, visibility 0s linear 180ms !important;
 							visibility: hidden !important;
