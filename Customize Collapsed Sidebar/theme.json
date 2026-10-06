@@ -5,10 +5,10 @@
   "homepage": "https://github.com/Ciuriya/zen-themes/tree/main/Customize%20Collapsed%20Sidebar",
   "image": "https://raw.githubusercontent.com/Ciuriya/zen-themes/main/Customize%20Collapsed%20Sidebar/Compact%20Collapsed%20Sidebar.png",
   "style": {
-    "chrome": "https://raw.githubusercontent.com/Ciuriya/zen-themes/main/Customize%20Collapsed%20Sidebar/chrome.css"
+    "chrome": "chrome.css"
   },
+  "preferences": "preferences.json",
   "readme": "https://raw.githubusercontent.com/Ciuriya/zen-themes/main/Customize%20Collapsed%20Sidebar/readme.md",
-  "preferences": "https://raw.githubusercontent.com/Ciuriya/zen-themes/main/Customize%20Collapsed%20Sidebar/preferences.json",
   "author": "Ciuriya",
   "version": "1.0.7",
   "tags": ["UI"],
