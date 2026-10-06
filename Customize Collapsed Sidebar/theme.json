@@ -3,8 +3,16 @@
   "name": "Customize Collapsed Sidebar",
   "description": "Allows you to customize your collapsed sidebar to its fullest potential!",
   "homepage": "https://github.com/Ciuriya/zen-themes/tree/main/Customize%20Collapsed%20Sidebar",
-  "style": "https://raw.githubusercontent.com/Ciuriya/zen-themes/main/Customize%20Collapsed%20Sidebar/chrome.css",
+  "image": "https://raw.githubusercontent.com/Ciuriya/zen-themes/main/Customize%20Collapsed%20Sidebar/Compact%20Collapsed%20Sidebar.png",
+  "style": {
+    "chrome": "chrome.css"
+  },
   "readme": "https://raw.githubusercontent.com/Ciuriya/zen-themes/main/Customize%20Collapsed%20Sidebar/readme.md",
-  "version": "1.0.5",
+  "preferences": "preferences.json",
+  "author": "Ciuriya",
+  "version": "1.0.6",
+  "tags": ["UI"],
+  "createdAt": "2025-06-20",
+  "updatedAt": "2026-10-06",
   "fork": ["zen"]
 }
