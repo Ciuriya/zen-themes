@@ -5,9 +5,9 @@
   "homepage": "https://github.com/Ciuriya/zen-themes/tree/main/Customize%20Collapsed%20Sidebar",
   "image": "https://raw.githubusercontent.com/Ciuriya/zen-themes/main/Customize%20Collapsed%20Sidebar/Compact%20Collapsed%20Sidebar.png",
   "style": {
-    "chrome": "Customize Collapsed Sidebar/userChrome.css"
+    "chrome": "userChrome.css"
   },
-  "preferences": "Customize Collapsed Sidebar/preferences.json",
+  "preferences": "preferences.json",
   "readme": "https://raw.githubusercontent.com/Ciuriya/zen-themes/main/Customize%20Collapsed%20Sidebar/readme.md",
   "author": "Ciuriya",
   "version": "1.1.0",
